@@ -40,5 +40,11 @@ public class Livro {
     public void setIsbn(String isbn) {
         this.isbn = isbn;
     }
+    public Genero getGenero() {
+        return genero;
+    }
+    public void setGenero(Genero genero) {
+        this.genero = genero;
+    }
     
 }
